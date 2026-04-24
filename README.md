@@ -10,7 +10,7 @@
 
 > **RTL → Synthesis → Floorplan → Placement → Routing → LVS → Tapeout → Caravel Integration**
 
-Built using the **OpenLane + Sky130 PDK** ecosystem, Fluxara represents a **fully realized silicon design journey**, culminating in a clean GDS and successful integration into the Caravel framework.
+Built using the **Sky130 PDK** ecosystem, Fluxara represents a **fully realized silicon design journey**, culminating in a clean GDS and successful integration into the Caravel framework.
 
 ---
 
@@ -24,23 +24,10 @@ Built using the **OpenLane + Sky130 PDK** ecosystem, Fluxara represents a **full
 
 ---
 
-## ⚙️ Toolchain
-
-| Stage                  | Tool             |
-| ---------------------- | ---------------- |
-| RTL Design             | Verilog          |
-| Synthesis → GDS        | OpenLane         |
-| Physical Design Engine | OpenROAD         |
-| PDK                    | Sky130 (sky130A) |
-| Layout Visualization   | KLayout          |
-| LVS/DRC                | Magic + Netgen   |
-
----
-
 ## 🧬 Design Summary
 
 * **Design Name:** Fluxara (derived from `NoETHERXLabs_Abythera_top`)
-* **Flow Type:** Fully automated OpenLane flow with iterative tuning
+* **Flow Type:** Fully automated flow with iterative tuning
 * **Integration Target:** Caravel `user_project_wrapper`
 * **Power Domain:** `vccd1 / vssd1`
 
