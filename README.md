@@ -140,7 +140,7 @@ Fluxara follows a modular RTL architecture:
 
 ## 🧪 Verification Strategy
 
-* OpenLane automated checks
+* Automated checks
 * Magic DRC validation
 * Netgen LVS comparison
 * Visual inspection via KLayout
